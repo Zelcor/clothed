@@ -4,6 +4,7 @@ import '../models/clothing.model.dart';
 import '../controllers/clothing.controller.dart';
 import 'clothing_detail.view.dart';
 import 'cart.view.dart';
+import 'add_clothing.view.dart';
 
 class ClothingListView extends StatelessWidget {
   @override
@@ -36,6 +37,17 @@ class ClothingListView extends StatelessWidget {
             },
           );
         },
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) => AddClothingView(),
+            ),
+          );
+        },
+        child: Icon(Icons.add),
+        tooltip: 'Ajouter un vêtement',
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[

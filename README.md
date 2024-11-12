@@ -1,16 +1,52 @@
-# clothed
+# Clothed
+## Objectif du projet
 
-A new Flutter project.
+L’objectif de ce projet est de développer une application légère inspirée de VINTED, permettant l'achat de vêtements. Dans le cadre du développement, nous allons définir une version MVP (Minimum Viable Product) pour obtenir des retours clients avec un minimum d'effort. En parallèle, nous adopterons les méthodologies agiles et rédigerons des User Stories pour exprimer les différents besoins. Chaque User Story composant le MVP sera préfixée de [MVP] dans son titre.
 
-## Getting Started
+## Principales fonctionnalités du projet
 
-This project is a starting point for a Flutter application.
+- **Gestion des utilisateurs** : Connexion et déconnexion du profil utilisateurs.
+- **Catalogue de produits** : Affichage des produits disponibles avec des détails et des images.
+- **Panier d'achat** : Ajout et suppression de produits dans le panier.
 
-A few resources to get you started if this is your first Flutter project:
+## Présentation du workspace
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Le workspace `clothed` est structuré pour faciliter le développement et la maintenance de l'application. Il comprend les dossiers suivants :
+- **lib/** : Contient le code source de l'application Flutter, organisé selon une architecture MVC (Modèle-Vue-Contrôleur) pour améliorer la lisibilité et la maintenabilité du code.
+- **assets/** : Contient les ressources telles que les images et les fichiers de configuration.
+- **test/** : Contient les tests unitaires et d'intégration pour assurer la qualité du code.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ce projet utilise Flutter pour créer une application mobile multiplateforme performante et réactive.
+
+## L'application
+### Pages de l'application
+
+1. **Page de Connexion** :
+   - Permet à l'utilisateur de se connecter en utilisant son email et son mot de passe.
+   - Redirige vers la page principale après une connexion réussie.
+
+2. **Page de Profil** :
+   - Affiche les informations de profil de l'utilisateur (login, mot de passe, anniversaire, adresse, code postal, ville). *problème technique*
+   - Permet à l'utilisateur de modifier ses informations de profil et de les sauvegarder. *problème technique*
+   - Inclut un bouton pour se déconnecter.
+
+3. **Page de Catalogue de Produits** :
+   - Affiche une liste de vêtements disponibles à l'achat avec des détails et des images.
+   - Permet de cliquer sur un produit pour voir plus de détails.
+
+4. **Page de Détail du Produit** :
+   - Affiche les détails d'un vêtement spécifique, y compris l'image, le titre, la catégorie, la taille, la marque et le prix.
+   - Permet d'ajouter le vêtement au panier.
+
+5. **Page du Panier** :
+   - Affiche les vêtements ajoutés au panier.
+   - Permet de supprimer des vêtements du panier.
+   - Affiche le total des prix des vêtements dans le panier.
+
+6. **Page d'Ajout de Vêtement** :
+   - Permet d'ajouter un nouveau vêtement au catalogue en fournissant des informations telles que l'URL de l'image, le titre, la taille, la marque et le prix.
+   - *La catégorie par défaut est "haut"*
+
+## Utilisateur
+- **Email** : clementloze@hotmail.fr
+- **Mot de passe** : pwd123
