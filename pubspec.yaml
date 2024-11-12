@@ -1,0 +1,27 @@
+name: clothed
+description: A Flutter project to be the new vinted.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: 3.6.0
+  cloud_firestore: 5.4.4
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  firebase_auth: ^5.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

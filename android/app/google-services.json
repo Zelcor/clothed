@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "626366007732",
+    "project_id": "clothed-9c179",
+    "storage_bucket": "clothed-9c179.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626366007732:android:904aa4b9f5bd645aa30ae1",
+        "android_client_info": {
+          "package_name": "com.clothed.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVKXlx4zm9XDYgBL7VrAA_XUHktFdxP6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
